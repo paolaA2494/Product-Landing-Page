@@ -1,9 +1,26 @@
-@media screen and (max-width:800px){
+@media screen and (max-width:650px){
     body{
         width: 100%;
        
 
     }
+
+        .main__section{
+            padding: 5%;
+        }
+    
+        .products{
+            display: block;
+            height: auto;
+            padding: 5%;
+        }
+    
+        .product{
+            margin-top: auto;
+        
+    
+    }
+    
 }
 
 @media screen and (max-width:400px){
