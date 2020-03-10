@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 body{
-    margin: 0;
+    margin: 0 auto;
     background-color: rgba(234, 207, 236, 0.801);
     font-family: 'Lato', sans-serif;
     display: block;
@@ -76,21 +76,23 @@ h1{
 }
 
 #features{
+    display: flex;
     justify-content: center;
     align-self: center;
-}
-
-.grid{
-    justify-content: center;
-    display: flex;
-    width: 1000px;
+    max-width: 80vw !important;
+    margin-right: 101px !important;
+    margin-left: 101px;
     border-color:  rgb(238, 164, 189);
     border-style: solid;
-    padding:20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 60px;
-  
+}
+
+.desc{
+    display: block;
+}
+
+
+#video{
+    margin-top: 50px;
 }
  
 iframe{
